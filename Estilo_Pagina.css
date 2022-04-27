@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    background: linear-gradient(to right, #282834, #20383d);
+    background-image: url("imagenes/calle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+div{
+    font-family: Consolas;
+    font-size: 50px;
+    margin: 15px;
+    padding: 5px 20px;
+
+}
+div.Titulo h1{
+    font-family: Consolas;
+    text-shadow: 5px 5px #999;
+}
+.boton{
+    font-size: 50px;
+    font-family: Consolas;
+    background: darkgrey;
+}
+
+
