@@ -7,54 +7,44 @@
     <meta content="Antonio Garzon, Manuel Corrales" name="autor">
     <meta content="Carrera de Autos" name="descripcion">
     <link rel="shortcut icon" href="imagenes/auto3.png">
-    <style>
-        section.autos{
-            column-count: 3;
-        }
-        .form-control{
-            width: 150px;
-            height: 25px;
-        }
-        .auto1{
-            margin-left: 230px;
-        }
-        .auto3{
-            margin-right: 230px;
-        }
-    </style>
 </head>
 <body>
-<h1>
-    <label for="input_nombre" >INGRESE SU NOMBRE :</label>
-    <p>
-    <input type="text" class="form-control" id="input_nombre" aria-describedby="nombre" placeholder="Ingrese su Nombre">
-    </p>
-</h1>
-<h2>
+<div class="Titulo">
+    <h3>
+        <label for="input_nombre" >INGRESE SU NOMBRE :</label>
+        <p>
+            <input type="text" class="form-control" id="input_nombre" aria-describedby="nombre" placeholder="Ingrese su Nombre">
+        </p>
+    </h3>
+</div>
+
+<h2 class="subTitulo">
    ELIJA SU VEHICULO
 </h2>
 <section class="autos">
     <div class="auto1">
         <img  width="225" height="400" src="imagenes/policia.png">
         <p>
-        <input type="radio" name="vehiculo" id="moto" value="moto" >
-        <label for="moto"></label>
+        <input type="radio" name="vehiculo" id="policia" value="policia">
+            <label for="policia" ></label>
         </p>
 
     </div>
-    <div>
+    <div class="auto2">
         <img width="200" height="400" src="imagenes/Auto1.png">
         <p>
          <input type="radio" name="vehiculo" id="auto1" value="auto1" >
         <label for="auto1"></label>
+
+
         </p>
             <a href="comienzo.html" >
-                <input type="button" value="JUGAR" class="boton">
+                <input type="button" value="JUGAR" class="boton" >
             </a>
 
     </div>
     <div class="auto3">
-        <img width="225" height="400" src="imagenes/Auto2.png">
+        <img width="230" height="400" src="imagenes/camioneta.png">
         <p>
          <input type="radio" name="vehiculo"  id="auto2" value="auto2" >
         <label for="auto2"></label>

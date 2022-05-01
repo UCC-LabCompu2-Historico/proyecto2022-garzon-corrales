@@ -10,19 +10,47 @@ body{
 }
 div{
     font-family: Consolas;
-    font-size: 50px;
+    font-size: 40px;
     margin: 15px;
     padding: 5px 20px;
 
 }
-div.Titulo h1{
+div.Titulo {
     font-family: Consolas;
-    text-shadow: 5px 5px #999;
+    text-shadow: 2px 2px #999;
+}
+.subTitulo{
+    font-family: Consolas;
+    font-size: 40px;
 }
 .boton{
     font-size: 50px;
     font-family: Consolas;
-    background: darkgrey;
+    background: #7c7878;
+}
+section.autos{
+    column-count: 3;
+}
+.form-control{
+    width: 150px;
+    height: 25px;
+}
+.auto1{
+    margin-left: 230px;
+}
+.auto3{
+    margin-right: 230px;
 }
 
-
+section.fin{
+    column-count: 2;
+}
+section.puntaje{
+    column-count: 2;
+}
+.jugar{
+    font-size: 30px;
+}
+.sonido{
+    margin-left: 1350px;
+}
