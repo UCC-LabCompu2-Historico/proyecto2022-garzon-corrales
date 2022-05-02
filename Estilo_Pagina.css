@@ -52,5 +52,8 @@ section.puntaje{
     font-size: 30px;
 }
 .sonido{
-    margin-left: 1350px;
+     margin-left: 1350px;
+ }
+.audio{
+    margin-left: 1200px;
 }
