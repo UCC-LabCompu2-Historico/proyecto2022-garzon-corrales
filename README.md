@@ -4,7 +4,7 @@ Estructura de Proyecto Lab de Compu II - 2022
 ## Requisitos del Primer Parcial
 ## Titulo del Proyecto: Pixel Racer
 ### Autores: Antonio Garzon y Manuel Corrales
-Link Proyecto: UCC-LabCompu2/proyecto2022-garzon-corrales/blob/5d663454515b4b3e270154c69aeedc834d86d36b/Index.html
+Link Proyecto:
 
 ### Sobre el Repositorio
 - [x] El proyecto debe estar subido al repositorio adecuado "Proyecto2022-ApellidoAlumno1-ApellidoAlumno2"
