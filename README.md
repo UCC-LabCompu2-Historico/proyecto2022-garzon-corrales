@@ -1,4 +1,4 @@
-# proyecto2022
+g# proyecto2022
 Estructura de Proyecto Lab de Compu II - 2022
 
 ## Requisitos del Primer Parcial
