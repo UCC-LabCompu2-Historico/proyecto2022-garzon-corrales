@@ -7,7 +7,7 @@ Estructura de Proyecto Lab de Compu II - 2022
 ##
 Link Proyecto: 
 
-(https://github.com/UCC-LabCompu2/proyecto2022-garzon-corrales/Index.html)
+https://github.com/UCC-LabCompu2/proyecto2022-garzon-corrales/Index.html
 
 ##
 
