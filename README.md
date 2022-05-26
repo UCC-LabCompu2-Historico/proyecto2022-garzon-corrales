@@ -6,8 +6,9 @@ Estructura de Proyecto Lab de Compu II - 2022
 ### Autores: Antonio Garzon y Manuel Corrales
 ##
 Link Proyecto: 
-[link de gh pages]
-(https://github.com/UCC-LabCompu2/proyecto2022-garzon-corrales)
+
+(https://github.com/UCC-LabCompu2/proyecto2022-garzon-corrales/Index.html)
+
 ##
 
 ### Sobre el Repositorio
