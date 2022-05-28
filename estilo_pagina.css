@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    font-family: 'Gugi', cursive;
+    font-family: Inconsolata;
     background: linear-gradient(to right, #282834, #20383d);
     background-image: url("imagenes/calle.png");
     background-repeat: no-repeat;
@@ -12,24 +12,24 @@ body{
 
 }
 div{
-    font-family: Consolas;
+    font-family: Inconsolata;
     font-size: 40px;
     margin: 15px;
     padding: 5px 20px;
 
 }
 div.Titulo {
-    font-family: Consolas;
+    font-family:Inconsolata;
     text-shadow: 2px 2px #999;
 }
 .subTitulo{
-    font-family: Consolas;
+    font-family: Inconsolata;
     font-size: 40px;
 }
 .boton{
     font-size: 50px;
-    font-family: Consolas;
-    background: #7c7878;
+    font-family:´Press;
+    background: darkgrey;
 }
 section.autos{
     column-count: 3;
