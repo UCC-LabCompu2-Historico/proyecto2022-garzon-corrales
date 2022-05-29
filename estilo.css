@@ -5,7 +5,7 @@
 
 }.banner{
 
-    background-image: url("/imagenes/fondo.jpg");
+    background-image: url("/imagenes/fondo1.jpg");
      background-size: cover;
      background-position:center;
      width:100%;
@@ -35,9 +35,9 @@ button{
     margin: 20px, 10px;
     border-radius: 5px;
     font-weight: lighter;
-    border: 2px solid deeppink;
+    border: 2px solid #716141;
     cursor: pointer;
-    background: #FFAAD1;
+    background: #b8a275;
     position: relative;
     overflow: hidden;
     margin-top: 4.3em;
