@@ -29,37 +29,27 @@
     line-height: 33px;
 }
 button{
-    width: 100px;
-    padding: 6px 0;
+    font-size: 30px;
     text-align: center;
-    margin: 20px, 10px;
+    margin: 20px;
     border-radius: 5px;
     font-weight: lighter;
     border: 2px solid #716141;
     cursor: pointer;
     background: #b8a275;
     position: relative;
-    overflow: hidden;
     margin-top: 4.3em;
 
 }
-span{
-    background: white;
-    height: 100%;
-    width: 0;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
+.button:hover,
+.buttton:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
 }
-button:hover span{
-    width: 100%;
-}
-button:hover span{
-    border: #19ac67;
-}
+
 .banner1{
-    background-color: pink;
+    background: linear-gradient(to right, #A89261, #FFE3B1);
 }
+
+
+
