@@ -74,14 +74,14 @@
             keys[ev.key]= false;
         }
         function movelineas(){
-           let  roadlines=document.querySelectorAll('.lineas');
-           roadlines.forEach(function (item){
-               if(item.y >=700){
-                   item.y=item.y -750;
-               }
-               item.y=item.y+player.step;
-               item.style.top =item.y +'px';
-           })
+            let  roadlines=document.querySelectorAll('.lineas');
+            roadlines.forEach(function (item){
+                if(item.y >=700){
+                    item.y=item.y -750;
+                }
+                item.y=item.y+player.step;
+                item.style.top =item.y +'px';
+            })
 
 
         }
@@ -107,7 +107,9 @@
                 if(!( (playercarboud.top> othercarboun.bottom) ||
                     (playercarboud.left> othercarboun.right) ||(playercarboud.right<othercarboun.left))){
                     // parar
-                    alert("Perdiste")
+
+                    alert("PERDISTE COMO CON TU EX!! LA PROXIMA SERA PEOR, MEJOR ANDATE" )
+
                     player.start=false;
                 }
                 if(item.y>750){
@@ -161,11 +163,11 @@
             player.y=playercar.offsetTop;
             //road lines
             for(x=0;x<5;x++){
-            let roadline=document.createElement('div');
-            roadline.setAttribute('class','lineas');
-            roadline.y=x*150;
-            roadline.style.top= roadline.y +'px' ;
-            roadarea.appendChild(roadline);
+                let roadline=document.createElement('div');
+                roadline.setAttribute('class','lineas');
+                roadline.y=x*150;
+                roadline.style.top= roadline.y +'px' ;
+                roadarea.appendChild(roadline);
             }
             for(x=0;x<5;x++){
                 let roadline=document.createElement('div');

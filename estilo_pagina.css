@@ -2,8 +2,7 @@ body{
     text-align: center;
     font-family: Consolas, monospace;
     background: linear-gradient(to right, #282834, #20383d);
-    background-image: url("imagenes/fondo1.jpg");
-    background-position: center;
+    background-image: url("imagenes/calle.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -42,10 +41,10 @@ section.autos{
     height: 25px;
 }
 .auto1{
-    margin-left: 7em;
+    margin-left: 230px;
 }
 .auto3{
-    margin-right: 7em;
+    margin-right: 230px;
 }
 
 section.fin{
