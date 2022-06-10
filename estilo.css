@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family: Consolas, monospace;
+    box-sizing: border-box;
 
 }.banner{
 
@@ -21,12 +22,15 @@
  .content h1{
      font-size: 50px;
      margin-top: 200px;
+
  }
 .content p {
     font-size: 23px;
     margin-top: 4px;
     font-weight: 100;
     line-height: 33px;
+
+
 }
 button{
     width: 100px;
@@ -54,12 +58,94 @@ span{
     z-index: -1;
     transition: 0.5s;
 }
-button:hover span{
+button:hover {
     width: 100%;
 }
-button:hover span{
+button:hover {
     border: #19ac67;
 }
 .banner1{
-    background-color: pink;
+    background-color: #AF9D79;
+    width:100%;
+    height:100vh;
+
 }
+.comojugar{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 4%;
+    line-height: 1.1;
+
+}
+.clase{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #AF9D79;
+
+}
+button{
+    width: 100px;
+    padding: 6px 0;
+    text-align: center;
+    margin: 20px, 10px;
+    border-radius: 5px;
+    font-weight: lighter;
+    border: 2px solid #716141;
+    cursor: pointer;
+    background: #b8a275;
+    position: relative;
+    overflow: hidden;
+    margin-top: 4.3em;
+
+}
+
+.cuerpo{
+    width: 100%;
+    padding: 50px 100px;
+}
+.imagen{
+    width: 45%;
+    float: left;
+}
+.imagen img{
+    width: 100%;
+    height: auto;
+}
+.contenido{
+    width: 49%;
+    float: left;
+    margin-left: 30px;
+}
+
+.contenido h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.contenido p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    margin-left: 15%;
+    line-height: 1.5;
+}
+@media screen and (max-width: 768px){
+    .imagen{
+        width: 100%;
+        float: none;
+    }
+    .contenido{
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+    }
+    .contenido h1{
+        font-size: 40px;
+        text-align: center;
+
+    }
+    .contenido p{
+        font-size: 20px;}
+
