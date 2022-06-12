@@ -6,32 +6,44 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    }
 
-
-
-
-}
 div{
     font-family: Consolas, monospace;
-    font-size: 40px;
+    font-size: 170%;
     margin: 15px;
     padding: 5px 20px;
     text-shadow: 1px 1px #999;
-
 }
+
 div.Titulo {
     font-family:Consolas, monospace;
     text-shadow: 1px 1px #999;
 }
+
 .subTitulo{
     font-family: Consolas, monospace;
     font-size: 40px;
     text-shadow: 1px 1px #999;
 }
+
 .boton{
-    font-size: 50px;
-    font-family:Consolas, monospace;
-    background: darkgrey;
+    width: 100px;
+    padding: 8px 0;
+    text-align: center;
+    margin: 20px, 10px;
+    border-radius: 5px;
+    font-weight: lighter;
+    border: 2px solid #716141;
+    cursor: pointer;
+    background: #b8a275;
+    position: relative;
+    overflow: hidden;
+    margin-top: 4.3em;
+    letter-spacing: 2px;
+
 }
 section.autos{
     column-count: 3;

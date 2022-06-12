@@ -9,47 +9,57 @@
     <link rel="shortcut icon" href="./imagenes/auto3.png">
 </head>
 <body>
-<div class="Titulo">
-    <h3>
-        <label for="input_nombre" >INGRESE SU NOMBRE :</label>
-        <p>
-            <input type="text" class="form-control" id="input_nombre" aria-describedby="nombre" placeholder="TU NOMBRE PERRI">
-        </p>
-    </h3>
-</div>
-
-<h2 class="subTitulo">
-   ELIJA SU VEHICULO
-</h2>
-<section class="autos">
-    <div class="auto1">
-        <img  width="225 em" height="400 em " src="imagenes/policia.png" alt="">
-        <p>
-        <input type="radio" name="vehiculo" id="policia" value="policia">
-            <label for="policia" ></label>
-        </p>
-
+<div class="info" id="formulario">
+    <div class="Titulo">
+        <h3>
+            <label for="input_nombre" >INGRESE SU NOMBRE :</label>
+            <p>
+                <input type="text" class="form-control" id="input_nombre" aria-describedby="nombre" placeholder="TU NOMBRE PERRI">
+            </p>
+        </h3>
     </div>
-    <div class="auto2">
-        <img width="200 em" height="400 em" src="imagenes/auto1.png">
-        <p>
-         <input type="radio" name="vehiculo" id="auto1" value="auto1" >
-        <label for="auto1"></label>
+    <h2 class="subTitulo">
+        ELIJA SU VEHICULO
+    </h2>
+    <section class="autos">
+        <div class="auto1">
+            <img  width="225 em" height="400 em " src="imagenes/policia.png" alt="">
+            <p>
+                <input type="radio" name="vehiculo" id="policia" value="policia">
+                <label for="policia" ></label>
+            </p>
 
-
-        </p>
+        </div>
+        <div class="auto2">
+            <img width="200 em" height="400 em" src="imagenes/auto1.png">
+            <p>
+                <input type="radio" name="vehiculo" id="auto1" value="auto1" >
+                <label for="auto1"></label>
+            </p>
             <a href="comienzo.html" >
                 <input type="button" value="JUGAR" class="boton" >
             </a>
 
+        </div>
+        <div class="auto3">
+            <img width="230 em" height="400 em" src="imagenes/camioneta.png">
+            <p>
+                <input type="radio" name="vehiculo"  id="auto2" value="auto2" >
+                <label for="auto2"></label>
+            </p>
     </div>
-    <div class="auto3">
-        <img width="230 em" height="400 em" src="imagenes/camioneta.png">
-        <p>
-         <input type="radio" name="vehiculo"  id="auto2" value="auto2" >
-        <label for="auto2"></label>
-        </p>
-    </div>
+</div>
+
+
+
+
+
+
+
+
+<button type="button" onclick="pasarformulario()"><h2>Empezar a Jugar</h2></button>
+
+
 
 </section>
 </body>
