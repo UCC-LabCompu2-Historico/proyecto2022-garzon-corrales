@@ -1,17 +1,17 @@
 /**
- * Se envia el formulario obtenido para utilizar la informacion (nombre del jugador, dinosaurio seleccionado y ).
+ * Se envia el formulario obtenido para utilizar la informacion (nombre del jugador, auto seleccionado).
  * @method pasarFormulario
  */
 function pasarformulario(){
     var nombre,auto,urlComp,pasar;
-    nombre = document.getElementById("nombre").value;
+    nombre = document.getElementById("input_nombre").value;
     pasar=1;
     if(obtenerRadioButton()==undefined){
         alert("Seleccione un auto");
         pasar=0
     }
     else{
-        auto= document.getElementsByName("auto")[obtenerRadioButton()].value;
+        auto= document.getElementsByName("vehiculo")[obtenerRadioButton()].value;
     }
 
     if(nombre==""){
@@ -23,7 +23,7 @@ function pasarformulario(){
         pasar=0;
     }
     if(pasar==1) {
-        urlComp = "PantallaJuego.html#" + nombre + "#" + auto;
+        urlComp = "PantallaJuego.html#" + nombre + "-" + auto.value;
         window.open(urlComp, "_self");
     }
 
@@ -35,7 +35,7 @@ function pasarformulario(){
  */
 function obtenerRadioButton()
 {
-    var auto = document.getElementsByName("auto");
+    var auto = document.getElementsByName("vehiculo");
     for(i=0;i<3;i++){
         if (auto[i].checked) return i;
     }
@@ -69,9 +69,9 @@ function obtenerNombre() {
 }
 
 /**
- * Se obtiene la imagen del dinosaurio seleccionado.
- * @method obtenerDino
- * @return {string} dino - se retorna el dinosaurio que fue seleccionado
+ * Se obtiene la imagen del auto seleccionado.
+ * @method obtenerAuto
+ * @return {string} auto - se retorna el auto que fue seleccionado
  */
 function obtenerauto() {
     var urlComp, auto;
