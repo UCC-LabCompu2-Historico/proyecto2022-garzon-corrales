@@ -78,7 +78,7 @@ let auto= {
             this.pos.y += a;
         }
 
-        if (this.controller.right && (this.pos.x!=540)) {
+        if (this.controller.right && (this.pos.x!=520)) {
             this.pos.x += a;
         } else if (this.controller.left && (this.pos.x!=-30)) {
             this.pos.x -= a;
