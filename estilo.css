@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
 }.banner{
-    background-image: url("/imagenes/fondo1.jpg");
+    background-image: url("imagenes/fondo1.jpg");
      background-size: cover;
      background-position:center;
      width:100%;
@@ -15,27 +15,26 @@
  .content{
      width: 100%;
      position: absolute;
-     top: 20%;
+     top: 23.7%;
      transform: translateY(-50%);
      text-align: center;
-     line-height: 1.5
+     line-height: 1.2
 
  }
  .content h1{
      font-size: 50px;
-     margin-top: 270px;
+     margin-top: 175px;
  }
 .content p {
     font-size: 23px;
-    margin-top: 4px;
+    margin-top: 11px;
     font-weight: 100;
-    line-height: 33px;
+    line-height: 40px;
 }
 button{
     width: 100px;
     padding: 6px 0;
     text-align: center;
-    margin: 20px, 10px;
     border-radius: 5px;
     font-weight: lighter;
     border: 2px solid #716141;
@@ -43,14 +42,26 @@ button{
     background: #b8a275;
     position: relative;
     overflow: hidden;
-    margin-top: 4.3em;
+    margin: 4.3em 10px 20px;
 }
 .button:hover,
 .buttton:focus {
     box-shadow: 0 0.5em 0.5em -0.4em;
     transform: translateY(-0.25em);
 }
-
+.boton2{
+    width: 100px;
+    padding: 6px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: lighter;
+    border: 2px solid #716141;
+    cursor: pointer;
+    background: #b8a275;
+    position: absolute;
+    overflow: hidden;
+    margin: 40% 80%;
+}
 .banner1{
     background-color: #AF9D79;
     width:100%;
@@ -91,13 +102,13 @@ button{
 }
 
 .contenido h1{
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: 2px;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 33%;
 }
 .contenido p{
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1.5px;
     margin-left: 15%;
     line-height: 1.5;
@@ -111,7 +122,7 @@ button{
     .contenido {
         width: 100%;
         float: none;
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     .contenido h1 {
@@ -123,5 +134,27 @@ button{
     .contenido p {
         font-size: 20px;
     }
+    .boton3{
+        margin-top: 10px;
+    }
+}
+.boton3{
+    width: 100px;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: lighter;
+    border: 2px solid #716141;
+    cursor: pointer;
+    background: #b8a275;
+    position: absolute;
+    letter-spacing: 2px;
+    margin-top:  22%;
 
 }
+.boton3:hover,
+.boton3:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+}
+
