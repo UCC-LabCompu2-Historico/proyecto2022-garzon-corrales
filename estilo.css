@@ -5,32 +5,31 @@
     box-sizing: border-box;
 
 }.banner{
-
     background-image: url("/imagenes/fondo1.jpg");
      background-size: cover;
      background-position:center;
      width:100%;
      height:100vh;
+
  }
  .content{
      width: 100%;
      position: absolute;
-     top: 23%;
+     top: 20%;
      transform: translateY(-50%);
      text-align: center;
+     line-height: 1.5
+
  }
  .content h1{
      font-size: 50px;
-     margin-top: 200px;
-
+     margin-top: 270px;
  }
 .content p {
     font-size: 23px;
     margin-top: 4px;
     font-weight: 100;
     line-height: 33px;
-
-
 }
 button{
     width: 100px;
@@ -38,34 +37,20 @@ button{
     text-align: center;
     margin: 20px, 10px;
     border-radius: 5px;
-    font-weight: ligh;
+    font-weight: lighter;
     border: 2px solid #716141;
     cursor: pointer;
     background: #b8a275;
     position: relative;
     overflow: hidden;
     margin-top: 4.3em;
-
-
+}
+.button:hover,
+.buttton:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
 }
 
-span{
-    background: white;
-    height: 100%;
-    width: 0;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-button:hover {
-    width: 100%;
-}
-button:hover {
-    border: #19ac67;
-}
 .banner1{
     background-color: #AF9D79;
     width:100%;

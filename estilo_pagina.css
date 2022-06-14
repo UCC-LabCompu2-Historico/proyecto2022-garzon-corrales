@@ -1,34 +1,31 @@
-body{
+body {
     text-align: center;
     font-family: Consolas, monospace;
     background: linear-gradient(to right, #282834, #20383d);
-    background-image: url("imagenes/calle.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
+    background-image: url("imagenes/fondo1.jpg");
+    background-position: center;
     box-sizing: border-box;
     letter-spacing: 2px;
-    }
 
+}
 div{
     font-family: Consolas, monospace;
-    font-size: 170%;
-    margin: 15px;
-    padding: 5px 20px;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 1px;
     text-shadow: 1px 1px #999;
 }
-
 div.Titulo {
     font-family:Consolas, monospace;
     text-shadow: 1px 1px #999;
+    margin-top: 1px;
 }
-
 .subTitulo{
     font-family: Consolas, monospace;
-    font-size: 40px;
+    font-size: 25px;
     text-shadow: 1px 1px #999;
+    margin-top: 1px;
 }
-
 .boton{
     width: 100px;
     padding: 8px 0;
@@ -41,10 +38,15 @@ div.Titulo {
     background: #b8a275;
     position: relative;
     overflow: hidden;
-    margin-top: 4.3em;
+    margin-top: 1em;
     letter-spacing: 2px;
-
 }
+.boton:hover,
+.boton:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+}
+
 section.autos{
     column-count: 3;
 }
@@ -53,7 +55,7 @@ section.autos{
     height: 25px;
 }
 .auto1{
-    margin-left: 230px;
+    margin-left: 0px;
 }
 .auto3{
     margin-right: 230px;

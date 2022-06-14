@@ -7,7 +7,7 @@ function pasarformulario(){
     nombre = document.getElementById("input_nombre").value;
     pasar=1;
     if(obtenerRadioButton()==undefined){
-        alert("Seleccione un auto");
+        alert("Alguna vez viste la calle sin autos? Bueno yo tampoco, elegi uno. Das mas asco que chuparle el dedo a un mecanico");
         pasar=0
     }
     else{
@@ -15,11 +15,11 @@ function pasarformulario(){
     }
 
     if(nombre==""){
-        alert("Ingrese un nombre valido");
+        alert("No tener nombre no es muy RAPIDO Y FURIOSO que digamos. ¿Que paso, tus papis no te pusieron nombre o no te enseñaron a leer?");
         pasar=0;
     }
     if(nombre.length>10){
-        alert("Nombre demasiado grande");
+        alert("Nombre demasiado largo, not what she said. Proba con uno mas corto, esto no es un libro salame.");
         pasar=0;
     }
     if(pasar==1) {
