@@ -1,4 +1,9 @@
-
+/*
+* @method choqueRectangular
+  * @param {auto} obj1 - almacena la posicion del auto
+  * @param {obstaculo} obbj2 - almacena la posicion del obstaculo
+  * @return devuelve true si la posicion del auto coincide con la posicion del oobstaculo
+ */
 function choqueRectangular(obj1,obj2){
     return obj1.pos.x + obj1.width/2 >= obj2.pos.x - obj2.width/2 &&
         obj1.pos.x - obj1.width/2 <= obj2.width/2 + obj2.pos.x &&
@@ -6,12 +11,16 @@ function choqueRectangular(obj1,obj2){
         obj1.pos.y - obj1.height/2 <= obj2.height/2 + obj2.pos.y;
 }
 
+/*
+* @method Controller
+  * La usamos para saber cuando se presiono una tecla, con el event listenter,  y ver que hacer en cadad caso
+ */ 
+
 let Controller = function(){
     this.up = false;
     this.down = false;
     this.left = false;
     this.right = false;
-    //adding client test
 
     window.addEventListener('keydown', function(e){
         switch(e.code){
@@ -63,7 +72,10 @@ let Controller = function(){
 }
 
 
-
+/*
+Creamos el objeto auto y le deteminamos el alto y ancho, junot con su posicion inicial.
+Luego lo dibujamos en el canvas y su posicion va a ir cambiando a medida que se aprietan las teclas
+*/
 let auto= {
     height:240,
     width:100,
@@ -95,6 +107,10 @@ let auto= {
     },
 }
 
+/*
+Creamos el objeto obstaculo1 y le deteminamos el alto y ancho, junot con su posicion inicial.
+Luego lo dibujamos en el canvas y su posicion va a ir cambiando a medida que se aprietan las teclas
+*/
 let obstaculo1={
     height:230,
     width:100,
@@ -126,7 +142,10 @@ let obstaculo1={
 }
 
 
-
+/*
+Creamos el objeto obstaculo2 y le deteminamos el alto y ancho, junot con su posicion inicial.
+Luego lo dibujamos en el canvas y su posicion va a ir cambiando a medida que se aprietan las teclas
+*/
 let obstaculo2={
     height:230,
     width:100,
@@ -156,6 +175,10 @@ let obstaculo2={
     },
 
 }
+/*
+Creamos el objeto obstaculo3 y le deteminamos el alto y ancho, junot con su posicion inicial.
+Luego lo dibujamos en el canvas y su posicion va a ir cambiando a medida que se aprietan las teclas
+*/
 let obstaculo3={
     height:230,
     width:100,
@@ -185,7 +208,12 @@ let obstaculo3={
 
 }
 
-
+/*
+* @method inicio
+Utilizamos esta funcion para comenzar el juego.
+Dibijamos el canvas, vamos actualizando las posiciones del auto y de los obstaculos
+Por ultimo nos fijamos si la posicion del auto conicide con la posicion de alguno de los obstaculos
+ */
 
 
 function inicio(){
@@ -255,42 +283,3 @@ function obtenerRadioButton()
     }
 }
 
-/**
- * Esta funcion sirve para obtener la informacion pasada a travez de la url
- * @method obtenerFormulario
- */
-function obtenerFormulario() {
-    var urlComp, nombre, auto;
-
-    urlComp = window.location.href.split('/')[4];
-    nombre= window.location.href.split('#')[1];
-    auto= window.location.href.split('#')[2];
-
-    document.getElementById("nombre_jugador").innerHTML = nombre;
-}
-
-/**
- * Se obtiene el nombre del jugador.
- * @method obtenerNombre
- * @return {string} nombre - devuelve el nombre del jugador
- */
-function obtenerNombre() {
-    var urlComp, nombre;
-
-    urlComp = window.location.href.split('/')[4];
-    nombre= window.location.href.split('#')[1];
-    return nombre;
-}
-
-/**
- * Se obtiene la imagen del auto seleccionado.
- * @method obtenerAuto
- * @return {string} auto - se retorna el auto que fue seleccionado
- */
-function obtenerauto() {
-    var urlComp, auto;
-
-    urlComp = window.location.href.split('/')[4];
-    auto= window.location.href.split('#')[2];
-    return auto;
-}
